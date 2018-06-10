@@ -311,6 +311,11 @@ public class MusicManager : MonoBehaviour {
         }
 	}
 
+    public void Test01()
+    {
+        Debug.Log("Updated the Script");
+    }
+
     /// <summary>
     /// Plays all notes that are between the last time and the current time regaurdless of which is higher
     /// </summary>
